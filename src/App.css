@@ -1,0 +1,104 @@
+
+
+* {
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: rgb(51, 46, 46);
+}
+
+.mobile-view {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.first-content-container{
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  position: absolute;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.first-content-container img {
+  margin-top: 96px;
+}
+
+.first-content-container p {
+  font-size: 20px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.first-content-container p:first-child {
+  font-weight: 700;
+}
+
+.first-content-container span {
+  font-size: 18px;
+  justify-content: center; 
+  text-transform: uppercase;
+}
+
+.second-content-container {
+  font-size: 20px;
+  font-weight: 400;
+  left: 50%;
+  margin-bottom: 44px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.second-content-container span {
+  font-weight: 700;
+}
+
+.pic {
+  height: 195px;
+  width: 191px;
+}
+
+.clock {
+  align-items: center;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  display: flex;
+  height: 87px;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 78%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+}
+
+.clock section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.clock section p {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.clock section small {
+  font-size: 11px;
+}
+
+.clock span {
+  font-weight: 900;
+}
